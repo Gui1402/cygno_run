@@ -38,4 +38,27 @@ Paste the following at end of the .bashrc file:
     export LD_LIBRARY_PATH=$ROOTSYS/lib/:$LD_LIBRARY_PATH
   
 Restart the terminal and root should be works normally.  
+
+
+**Config the virtual enviroment**
+To do that you need to install pip(python's manager packages) or Anaconda(miniconda also works).
+
+Install and create your virtualenv:
+
+    $pip install virtualenv
+    $virtualenv virutal_env_name
     
+Active virtualenv:
+    
+    $git source bin/activate
+    
+
+Link your folder and this project:
+    
+    $git init
+	$git remote add origin 
+	$git pull
+    
+Install project requirements:
+    
+    $pip install -r requirements.txt
