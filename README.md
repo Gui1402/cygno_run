@@ -65,12 +65,22 @@ Install project requirements:
     
     $pip install -r requirements.txt
     
-**Cloning the repository**
+**Cloning and running the repository**
 
 After virtual environment configuration the next step is to clone cygnus analysis repository:
 
 	$git clone https://github.com/CYGNUS-RD/analysis.git
 
+Into repository, you can run the file reconstruction.py. I make a directory to salve outputs using:
+	
+	$mkdir plots_example
+
+After it, It's just run this code in terminal:	
+	
+	$python3 reconstruction.py configFile.txt --pdir plots_example plots --max-entries 50 -j2
+
+You can change max entries for the number that you want (If these entries really exists). The same could be done
+for core numbers (-j2)
 
 If the funciont import ROOT does not work, try to add this line into main file (reconstruction.py)
 
