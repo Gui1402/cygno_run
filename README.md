@@ -57,7 +57,7 @@ Active virtualenv:
 
 Link your folder and this project:
     
-    $git init
+    	$git init
 	$git remote add origin 
 	$git pull
     
@@ -70,3 +70,9 @@ Install project requirements:
 After virtual environment configuration the next step is to clone cygnus analysis repository:
 
 	$git clone https://github.com/CYGNUS-RD/analysis.git
+
+
+If the funciont import ROOT does not work, try to add this line into main file (reconstruction.py)
+
+	import sys
+	sys.path.append('/Applications/Misc/root/lib')
