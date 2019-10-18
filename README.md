@@ -41,6 +41,8 @@ Restart the terminal and root should be works normally.
 
 
 **Config the virtual enviroment**
+
+
 To do that you need to install pip(python's manager packages) or Anaconda(miniconda also works).
 
 Install and create your virtualenv:
@@ -62,3 +64,9 @@ Link your folder and this project:
 Install project requirements:
     
     $pip install -r requirements.txt
+    
+**Cloning the repository**
+
+After virtual environment configuration the next step is to clone cygnus analysis repository:
+
+	$git clone https://github.com/CYGNUS-RD/analysis.git
