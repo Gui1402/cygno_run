@@ -75,4 +75,4 @@ After virtual environment configuration the next step is to clone cygnus analysi
 If the funciont import ROOT does not work, try to add this line into main file (reconstruction.py)
 
 	import sys
-	sys.path.append('/Applications/Misc/root/lib')
+	sys.path.append('go to root path..')
