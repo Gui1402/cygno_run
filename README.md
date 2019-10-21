@@ -1,4 +1,4 @@
-# cygno_run
+# How to configure and run the CYGNO Reconstruction Algorithm
 
 This repository is for configuring the libraries used to get cygno images.
 
