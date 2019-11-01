@@ -100,7 +100,8 @@ Then, it's just run this code on the terminal:
 - *max-entries* is the number of images you want to analyse.
 - *j* is the number of cores you want to use.
 
-If the funciont import ROOT does not work, try to add this line into main file (reconstruction.py)
+If the funciont import ROOT does not work, you will need to add a codeline into bash.rc file.
 
-	import sys
-	sys.path.append('go to root path..')
+	$nano ~/.bashrc ##open bashrc in the terminal
+	$source /full/path/to/your/ROOT/bin/thisroot.sh ## add source root.sh in that file
+	
